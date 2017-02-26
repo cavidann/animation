@@ -1,0 +1,60 @@
+
+.main{
+    width: 3%;
+float: left;
+}
+.main2{
+    width: 3%;
+float: left;
+}
+.top{    
+    float: left;    
+    width: 30px;     
+}
+img{
+    float: left;
+    width: 33.3%;
+    height: 20%;
+}
+.top i{
+     float: left;
+    color: royalblue;
+    position: relative;
+    animation-name: ilk;
+   
+    animation-duration: 0.2s; 
+    margin-top: 10px; 
+    font-size: 30px;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+}
+.middle{
+    float: left;
+    margin-top: 40px; 
+     width: 30px;
+   
+}
+.middle i{
+     float: left;
+     color: royalblue;
+    position: relative;
+    
+    animation-name: ilkk;
+    animation-duration: 0.3s; 
+    margin-top: 10px; 
+    font-size: 30px;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+} 
+@keyframes ilk {
+    0%   {top:0px;}
+    100% {top:100px;}
+}
+@keyframes ilkk {
+    0%   {top:0px;}
+    100% {top:100px;}
+}
+.clear{
+    clear: both;
+}
+
