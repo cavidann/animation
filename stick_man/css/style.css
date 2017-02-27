@@ -1,0 +1,226 @@
+.fon{
+    background: yellow;
+   height: 243px; 
+}
+.all{
+   position: relative;
+   width: 166px;
+    /*border: 2px solid;*/
+    animation-name: as; 
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes as{
+0%   {left:0px;}
+
+100% {left:1748px}
+}
+.top, .bottom{
+     border-radius:25%;
+}
+.head{
+    
+    margin-left: 51px; 
+    border-radius: 50%; 
+    width: 55px;
+    height: 55px;
+    position: relative;
+    background: gray;
+    animation-name: bas; 
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes bas{
+0%   {top:0px;}
+
+100% {top:3px;}
+}
+.body{
+    border-radius:15%;
+    height: 90px;
+    width: 15px;
+ background:  gray;
+ margin-left: 72px;    
+}
+
+.b .top{ 
+     
+       margin-left:-66px; 
+      position: relative;
+  top: 15px;    
+    left: 71px;
+    width: 10px;    
+    height: 60px; 
+   background: gray;
+    animation-name: q;  
+      animation-duration: 2s;
+      animation-timing-function: linear;
+          animation-iteration-count: infinite;
+}
+@keyframes q{
+0%{  transform: rotate(-40deg);
+transform-origin: top; }
+100%{  transform: rotate(40deg);
+transform-origin: top; }
+
+}
+.b .bottom{
+    transform: rotate(-40deg);
+    position: absolute;
+    background: gray;
+    width: 10px;    
+    height: 50px;
+   margin-left: -1px;
+    top: 55px; 
+   animation-timing-function: linear;
+    animation-name: asagi;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes asagi{
+0%{  transform: rotate(-64deg);
+transform-origin: top; }
+100%{transform: rotate(-18deg);transform-origin: top;}
+}
+.a .top{ 
+       margin-left:-66px; 
+      position: relative;
+  top: -43px;    
+    left: 66px;
+    width: 10px;    
+    height: 60px; 
+   background: gray;
+    animation-name: q1;  
+      animation-duration: 2s;
+      animation-timing-function: linear;
+          animation-iteration-count: infinite;
+}
+@keyframes q1{
+0%{  transform: rotate(40deg);
+transform-origin: top; }
+100%{  transform: rotate(-40deg);
+transform-origin: top; }
+
+
+}
+.a .bottom{
+    transform: rotate(-40deg);
+    position: absolute;
+    background: gray;
+    width: 10px;    
+    height: 50px;
+   margin-left: -1px;
+    top: 55px; 
+   animation-timing-function: linear;
+    animation-name: asagi1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes asagi1{
+0%{  transform: rotate(0deg);
+transform-origin: top; }
+100%{transform: rotate(-40deg);transform-origin: top;}
+}
+
+.sol{
+    width: 100px;
+    height: 100px;
+    /*border: 2px solid;*/
+    margin-left: -2px; 
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.b1 .top{ 
+       margin-left:-66px; 
+      position: relative;
+  top: -36px;    
+    left: 71px;
+    width: 10px;    
+    height: 60px; 
+   background: gray;
+    animation-name: l;  
+      animation-duration: 2s;
+      animation-timing-function: linear;
+          animation-iteration-count: infinite;
+}
+@keyframes l{
+0%{  transform: rotate(-40deg);
+transform-origin: top; }
+100%{  transform: rotate(0deg);
+transform-origin: top; }
+
+}
+.b1 .bottom{
+    transform: rotate(-40deg);
+    position: absolute;
+    background: gray;
+    width: 10px;    
+    height: 50px;
+   margin-left: 1px;
+    top: 55px; 
+   animation-timing-function: linear;
+    animation-name: l1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes l1{
+0%{  transform: rotate(58deg);
+transform-origin: top; }
+100%{transform: rotate(10deg);transform-origin: top;}
+}
+.a1 .top{ 
+       margin-left:-66px; 
+      position: relative;
+  top: -96px;    
+    left: 66px;
+    width: 10px;    
+    height: 60px; 
+   background: gray;
+    animation-name: l2;  
+      animation-duration: 2s;
+      animation-timing-function: linear;
+          animation-iteration-count: infinite;
+}
+@keyframes l2{
+0%{  transform: rotate(25deg);
+transform-origin: top; }
+100%{  transform: rotate(-12deg);
+transform-origin: top; }
+
+
+}
+.a1 .bottom{
+    transform: rotate(-40deg);
+    position: absolute;
+    background: gray;
+    width: 10px;    
+    height: 50px;
+   margin-left: 1px;
+    top: 55px; 
+   animation-timing-function: linear;
+    animation-name: l3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes l3{
+0%{  transform: rotate(30deg);
+transform-origin: top; }
+100%{transform: rotate(29deg);transform-origin: top;}
+}
+
+
+    
